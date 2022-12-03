@@ -1,0 +1,80 @@
+body{
+    background-color: aqua;
+ 
+}
+.logo{
+width: 100px;
+height: 100px;
+}
+.usuario{
+    width: 230px;
+    height: 230
+    px;
+}
+.contenedor{
+    text-align: center;
+    margin-top: 100px;
+}
+.foto2{
+    width: 500px;
+    height: 450px;
+    
+}
+.foto{
+    text-align: center;
+    margin: 100px;
+}
+.conoce-a{
+text-align: center;
+background-color: rgb(11, 10, 111);
+color: aliceblue;
+padding: 10px;
+/*ALINERA AL CENTRO VERTCALMENTE  */
+display: flex;
+flex-direction: column;
+align-items: center;
+/* ALINER ALCENTRO HORIZONTAL */
+justify-content: center;
+}
+.container-experiencia{
+    text-align: center;
+    margin: 50px;
+    padding: 40px;
+    
+}
+
+
+.columna{
+    border: 2px solid rgb(12, 11, 11);
+}
+.columna:hover{
+    background-color: rgb(15, 239, 220);
+    color: rgb(168, 26, 147);
+    transition: 0.25 ease;
+}
+.container-experiencia i{
+    font-size: 2.5em;
+    background-color: rgb(155, 112, 234);
+    border-radius: 50%;
+    padding: 3px 10px;
+    color: aliceblue;
+}
+.section-proyecto{
+    text-align: center;
+}
+
+.seccion-articulos{
+    /*ALINERA AL CENTRO VERTCALMENTE  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* ALINER ALCENTRO HORIZONTAL */
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+.card{
+
+}
+
+.header
